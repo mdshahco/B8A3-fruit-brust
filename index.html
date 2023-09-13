@@ -3,18 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit Brust</title>
+    <title>Fruit Burst</title>
     <!-- daisyUI CDN   -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
     <!-- tailwind css CDN  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <!-- custom css  -->
     <style>
+        *{
+            font-family: 'Lato', sans-serif;
+        }
+        .navbar{
+            border-radius: 600px;
+        }
+        .navbar-start{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .navbar-end > .form-control > div{
+            border-radius: 50px;
 
+        }
     </style>
 
 </head>
 <body>
-    
+    <!--===========================================
+         header section started
+        ===========================================  -->
+    <header class="mx-60">
+        <!-- navbar started  -->
+        <div class="navbar bg-red-500 text-white mt-12 p-10">
+            <div class="navbar-start lg:flex">
+                <ul class="flex gap-8">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">All Fruits</a></li>
+                </ul>
+              </div>
+            <div class="navbar-center">
+                <a class="normal-case text-xl flex justify-center items-center gap-4" href="#">
+                    <img src="images/logo.png" alt="">
+                    <span class="font-bold text-4xl">Fruit Burst</span>
+                </a>
+            </div>
+            
+            <div class="navbar-end">
+                <div class="form-control">
+                    <!-- =================== -->
+                    <div class="input input-group input-bordered bg-white flex justify-between items-center gap-48">
+                        <span class="text-[#121212] opacity-40 bg-transparent">Search here</span>
+                        <span class="bg-transparent">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 21L15.803 15.803M15.803 15.803C17.2096 14.3965 17.9998 12.4887 17.9998 10.4995C17.9998 8.51035 17.2096 6.60262 15.803 5.19605C14.3965 3.78947 12.4887 2.99927 10.4995 2.99927C8.51035 2.99927 6.60262 3.78947 5.19605 5.19605C3.78947 6.60262 2.99927 8.51035 2.99927 10.4995C2.99927 12.4887 3.78947 14.3965 5.19605 15.803C6.60262 17.2096 8.51035 17.9998 10.4995 17.9998C12.4887 17.9998 14.3965 17.2096 15.803 15.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </div>
+                  </div>   
+                  <!-- =========================== -->
+            </div>
+          </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
